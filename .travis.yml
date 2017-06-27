@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: jfQ5C/ZB80e8Q3uqWed/4SCvebSBiUxRv5fQ2EP5S5qusYbpG4GtoC/LfTkdwJGPXH+5RCQEkJ5SsMhTm4joTo+Z7AUmqCaH0hwvPQJVmhnKF7fevCFzSEesb+hETg1mingeDmKAkuLlESnPbEh5AP+9A0DNtLJcZQxaFptEnWjV9uK7Ke5Pcz21P6KjoKGQdr7UU2VHj9WZjcsOD7c+SlsHmJSecj0jg9RI5GunTK3WsF/RxvoxZ+lnTyKe9V6wnZQp1lEp7iiS3HloDXyudNfM1SeMlV+8Sn9u0wvohd395NWbp89jDWoRhUtyorydi1iRrs8JJ6tTLwkvy9TzxI0hov3lsvUBxFNjDun3E6sr421vQImGWlxOYuie7SXxoMCBInxg/J5aZ4WSKYIdk5JST+FCSIivJTXgEPXVdtqA1++I6phBtQhz6hhHqwyBCXnhCvjWoemWS9T0N/Uh8lPN7cCcwPpE+VnQiv5a+2r3uzSsILeEj3ToQZ5VWdLfd+3BufEShj22VRs9NnVrpYBSaIFyM4Owt7OL+KgWZsBYckzsnJZ0xv9cWipN0vxPfA0n8qBSNpFOnqH8pERu579vf4oJ7G+RP0+WlX/o3i+wk2OBQP2xlO0kD5yV3OpQr7T1ahu2sYrfXOGnjE5DKyNzUOJG5vltqEukSlCGZxA=
+  app: radiant-hollows-58349
+  on:
+    repo: triley22/node-shopping-list-integration-tests
