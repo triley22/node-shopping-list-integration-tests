@@ -1,9 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: LmZ0psHZOkWVvrOZBHer+l/gnZx82SnOgCenpjKYVC0CcyHfdvHp26sfZZPg4vKeMsYJIzp/kzi8C17damNExkzAX9XrJHGn2yp9ZOoPGOnoVMEVhrw6Gd2Xfbe6BOqxieO3UVkChr0wpD10tCFSL0fiSHcsQ8deaElob5ctAVMVRYGi8nG8fQWIMgBynYoIv5nvSpd1e4yemE7MoTMAayRGU+gM7f/AjhRHRiFoUdc0+1ns+ep8UuPk9EWGclYP40lLCllB+nGGhapxJojw4VrGyiBfEo3P7Mq6GshOeqLnZ5BxDIpmrb509J65eAgaK8XbQhoTNlXrUl7CmgOcHI02BOfSusGWRYZ2wIJ+2HEDdFA6UIeD5nyxlIU8HhImjEYX8fHYKVlO7lzKxPRQfwRKqYs3q/tC8wUgd5UhOTCAysUN6xFsf6+nG6KxacdrlIxY8paI75GRqKZ6OMPxtDhKdJgat9vagbZvZXDDw+CTSLm0PwHLB5XKFvv7O5fcGjABkGM2BuIzwJ0w1Y4yj0Q8uoySwVwoTxaN4d+D28lYPa8zmicOZEDFuP6wjKdBqY3VNo40kmAGBjyvRle+J+hYICUZVxuXWxeaP+AcGcupsKo0SpbxZXQLvZc1C0MMoTsYeR6M5SPuKzosJn+IRp9FBzPwU8pKcwiS17SX83w=
-  app: https://git.heroku.com/peaceful-cliffs-66203.git
-  on:
-    repo: triley22/node-shopping-list-integration-tests
